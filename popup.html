@@ -1,0 +1,24 @@
+<head>
+	<script src="jquery-1.10.2.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="popup.js"></script>
+</head>
+<body style="width:520px;">
+	<div id="pinnedStopSection">
+		<div id="pinnedStops"></div>
+		<br />
+		<a style="float:left" class="btn btn-default" role="button" href="#" id="add">Add Stop...</a>
+		<a style="float:left;" class="btn btn-default" role="button" href="#" id="settings">Settings...</a>
+		<a style="float:right" class="btn btn-default" role="button" href="#" id="stop">Stop Tracking</a>
+		<br />
+	</div>
+	<div id="addStop"></div>
+	<div id="settingsSection" style="display:none;">
+		<a style="float:left" class="btn btn-default" role="button" href="#" id="settingsBack">Back</a><br /><br /><br />
+		Track for <input type="number" id="trackMinutes" min="1" max="20"> Minutes<br />
+		Refresh data every <input type="number" id="refreshSeconds" min="15" max="60" step="5"> seconds<br />
+		Show next bus that will arrive in at least <input type="number" id="minimumNextArrivalMinutes" min="0" max="15"> minutes<br />
+		<br />
+		<a style="float:right" class="btn btn-default" role="button" href="#" id="saveSettings">Save</a>
+	</div>
+</body>

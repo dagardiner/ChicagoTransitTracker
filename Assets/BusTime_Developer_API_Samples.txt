@@ -1,0 +1,39 @@
+http://www.ctabustracker.com/bustime/api/v1/gettime?key=5JfdGQtTUgUaUzqmvwAydjMNp
+
+<bustime-response>
+
+http://www.ctabustracker.com/bustime/api/v1/getroutes?key=5JfdGQtTUgUaUzqmvwAydjMNp
+<route>
+  <rt>1</rt>
+  <rtnm>Bronzeville/Union Station</rtnm>
+  <rtclr>#336633</rtclr>
+</route>
+
+http://www.ctabustracker.com/bustime/api/v1/getdirections?key=5JfdGQtTUgUaUzqmvwAydjMNp&rt=22
+<dir>Northbound</dir>
+<dir>Southbound</dir>
+
+http://www.ctabustracker.com/bustime/api/v1/getstops?key=5JfdGQtTUgUaUzqmvwAydjMNp&rt=22&dir=Northbound
+<stop>
+  <stpid>1926</stpid>
+  <stpnm>Clark & Addison</stpnm>
+  <lat>41.947086853598</lat>
+  <lon>-87.656360864639</lon>
+</stop>
+
+http://www.ctabustracker.com/bustime/api/v1/getpredictions?key=5JfdGQtTUgUaUzqmvwAydjMNp&rt=22&stpid=15518
+<prd>
+  <tmstmp>20160329 16:00</tmstmp>
+  <typ>A</typ>
+  <stpnm>Clark & Montrose</stpnm>
+  <stpid>15518</stpid>
+  <vid>1318</vid>
+  <dstp>13719</dstp>
+  <rt>22</rt>
+  <rtdir>Northbound</rtdir>
+  <des>Howard</des>
+  <prdtm>20160329 16:17</prdtm>
+  <tablockid>22 -505</tablockid>
+  <tatripid>1040921</tatripid>
+  <zone/>
+</prd>
